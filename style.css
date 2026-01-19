@@ -94,8 +94,8 @@ ul li {
 }
 
 .produk .produk-unggulan {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
     object-position: center;
 }
@@ -258,4 +258,5 @@ footer {
   .profil img {
     width: 200px;
   }
+
 }
