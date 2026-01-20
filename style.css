@@ -135,9 +135,13 @@ ul li {
 
 /*PELUANG BISNIS*/
 .peluang-bisnis {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('img/background.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url('img/background.jpeg');
     background-size: cover;
     background-position: center;
+}
+
+.peluang-bisnis h4 {
+    text-shadow: 2px 2px 2px #000;
 }
 
 /*FAQ*/
