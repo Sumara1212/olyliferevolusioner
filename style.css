@@ -136,7 +136,7 @@ ul li {
 /*PELUANG BISNIS*/
 .peluang-bisnis {
     background-image:linear-gradient(rgba(35, 200, 105, 0.7), rgba(35, 200, 105, 0.85)), url("img/background2.jpeg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
@@ -256,5 +256,3 @@ footer {
     width: 200px;
   }
 }
-
-
