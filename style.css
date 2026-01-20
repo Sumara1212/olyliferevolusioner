@@ -2,24 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* HERO */
-.hero {
-    /*background-color: #23c869;*/
-    background-image:linear-gradient(rgba(35, 200, 105, 0.85), rgba(35, 200, 105, 0.85)), url("img/background.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 100px 7%;
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero .btn-pulse {
+.btn-pulse {
     animation: btn-pulse 1.8s infinite;
 }
 
@@ -36,6 +19,23 @@ body {
   }
 }
 
+
+/* HERO */
+.hero {
+    /*background-color: #23c869;*/
+    background-image:linear-gradient(rgba(35, 200, 105, 0.85), rgba(35, 200, 105, 0.85)), url("img/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px 7%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .hero .container {
     position: relative;
