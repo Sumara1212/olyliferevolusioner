@@ -19,6 +19,23 @@ body {
     align-items: center;
 }
 
+.hero .btn-pulse {
+    animation: btn-pulse 1.8s infinite;
+}
+
+/* Pulse animation */
+@keyframes btn-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #ffd43b;
+  }
+  70% {
+    box-shadow: 0 0 0 18px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
 
 .hero .container {
     position: relative;
@@ -256,4 +273,3 @@ footer {
     width: 200px;
   }
 }
-
