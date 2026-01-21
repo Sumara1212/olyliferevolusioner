@@ -19,7 +19,6 @@ body {
   }
 }
 
-
 /* HERO */
 .hero {
     /*background-color: #23c869;*/
@@ -43,6 +42,24 @@ body {
     max-width: 900px;
 }
 
+.hero .slide-top {
+    animation: slide-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+.hero .container h1 {
+    margin-top: -4.5rem;
+}
+
 .hero h1 span {
     color: #ffd43b;
 }
@@ -53,6 +70,10 @@ body {
 
 .hero .rotate:hover {
     transform: rotate(15deg);
+}
+
+hr {
+    margin: 0;
 }
 
 /* SECTION */
@@ -77,15 +98,18 @@ ul li {
 }
 
 .section-padding {
-    padding: 80px 7%;
+    padding: 80px 7% 30px;
 }
 
 .trust,
 .community,
 .produk,
+.keunggulan,
+.shaken-massager,
 .testimoni-galeri,
+.event,
 .profil {
-    background: #f8f9fa;
+    background-color: #EBF0F2;
 }
 
 .segmen, #manfaat {
@@ -110,6 +134,20 @@ ul li {
     height: 270px;
     object-fit: contain;
     object-position: center;
+}
+
+.tera-p90-detail .manfaat {
+    padding-top: 25px;
+    padding-inline: 15px;
+    padding-bottom: 10px;
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+    color: #fff;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.tera-p90-detail .manfaat h5 {
+    color: #ffd43b;
 }
 
 /*TESTIMONI VIDEO*/
@@ -259,6 +297,10 @@ footer {
 @media (max-width: 576px) {
     html {
         font-size: 80%;
+    }
+
+    .section-padding {
+        padding: 50px 7%;
     }
 
     .wa-float {
