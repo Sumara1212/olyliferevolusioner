@@ -195,10 +195,6 @@ ul li {
     background-position: center;
 }
 
-.peluang-bisnis p.font18px {
-    font-size: 18px;
-}
-
 /*FAQ*/
 .accordion-button {
     font-weight: 600;
@@ -305,6 +301,14 @@ footer {
 
     .section-padding {
         padding: 50px 7%;
+    }
+
+    .peluang-bisnis p.font14px {
+        font-size: 13.8px;
+    }
+
+    .peluang-bisnis ul li {
+        font-size: 13.8px;
     }
 
     .wa-float {
