@@ -195,6 +195,10 @@ ul li {
     background-position: center;
 }
 
+.peluang-bisnis p.font18px {
+    font-size: 18px;
+}
+
 /*FAQ*/
 .accordion-button {
     font-weight: 600;
